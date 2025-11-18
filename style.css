@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Weather-icons';
+    src: url('weathericons-regular-webfont.woff2') format('woff2'),
+        url('weathericons-regular-webfont.woff') format('woff');
+}
+
+* {
+    box-sizing: border-box;
+    color: #FFFFFF;
+    transition: all .1s ease-in;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    height: 100vh;
+}
+
+h1 {
+    margin-left: 137px;
+    margin-top: 60px;
+    font-size: 21px;
+}
+
+main {
+    background-color: #3299cc;
+    border: 25px solid #2a81ac;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 0;
+    height: 592px;
+    margin: 35px 137px;
+    padding: 0;
+    border: 2px solid white;
+}
+
+li {
+    display: inline-block;
+    height: 147px;
+    border: 2px solid white;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.item-content {
+    display: block;
+    height: 147px;
+    width: 100%;
+    margin-top: 26px;
+}
+
+.item_1 {
+    background-color: #3399CC;
+    width: 50%;
+}
+
+.item_2 {
+    background-color: #33CCCC;
+    width: 25%;
+}
+
+.item_3 {
+    background-color: #996699;
+    width: 25%;
+}
+
+.item_4 {
+    background-color: #C24747;
+    width: 25%;
+}
+
+.item_5 {
+    background-color: #E2674A;
+    width: 25%;
+}
+
+.item_6 {
+    background-color: #FFCC66;
+    width: 25%;
+}
+
+.item_7 {
+    background-color: #99CC99;
+    width: 25%;
+}
+
+.item_8 {
+    background-color: #669999;
+    width: 25%;
+}
+
+.item_9 {
+    background-color: #CC6699;
+    width: 50%;
+}
+
+.item_10 {
+    background-color: #339966;
+    width: 25%;
+}
+
+.item_11 {
+    background-color: #666699;
+    width: 100%;
+}
+
+p {
+    margin-bottom: 119px;
+    margin-left: 137px;
+    font-size: 16px;
+}
+
+span,
+i {
+    font-size: 22px;
+    width: auto;
+    opacity: 0.7;
+    display: inline-block;
+}
+
+i {
+    font-family: 'Weather-icons';
+    font-style: normal;
+    font-size: 30px;
+    margin-left: 12px;
+}
+
+.center {
+    text-align: center;
+}
