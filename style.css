@@ -138,3 +138,19 @@ i {
 .center {
     text-align: center;
 }
+
+li {
+    color: #FFFFFF;
+}
+
+li:hover .item-content {
+    color: #5ab4b4 !important;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 28px;
+    opacity: 1;
+}
+
+li:hover {
+    border: 2px solid #a09b90;
+}
